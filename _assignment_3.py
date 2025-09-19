@@ -1,7 +1,7 @@
-Full_name = "Jordan Smith" 
-Student_email = "jsmith@ncat.edu"
-Hometown = "Charlotte, NC"
-Graduation_semester = "Spring 2028"
+Full_name = "Ethan Hall"
+Student_email = "ehall3@aggies.ncat.edu"
+Hometown = "Raleigh, NC"
+Graduation_semester = "Spring 2029"
 Major = "Computer Science"
 
 Current_list = ["COMP 163", "MATH 150", "ENG 101", "HIS 105"]
@@ -110,3 +110,4 @@ print(f"Entertainment Backlog: {len(Entertainment_backlog_set)} items")
 print(f"Current Hobbies: {len(Hobbies_set)} activities")
 
 print(f"================================================================")
+
