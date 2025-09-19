@@ -11,14 +11,14 @@ GPA_history = [3.2, 3.6, 3.4, 3.6]
 emergency_contact = ("Mom", "Jane Doe", "704-555-0199")
 Home_address = ("456 Oak Street", "Charlotte", "NC", "28202")
 
-Instagram_info = ("Instagram", "@jordan_codes", 312)
+Instagram_info = ("Instagram", "@kasbandit", 689)
 Twitter_info = ("Twitter", "@jordandev", 127)
-Birthday_tuple = ("Birthday", "5", "22", "2006")
-Current_skills = {"Time management", "Photography", "Problem solving", "HTML", "Python basics"}
+Birthday_tuple = ("Birthday", "5", "11", "2007")
+Current_skills = {"Time management", "Photography", "Problem solving", "Python basics"}
 Skills_to_learn = {'Data structures', 'Web design', 'JavaScript', 'Git', 'Public speaking'}
 Career_interests = {"Software development", "Web development", "Data science", "Game development"}
-Hobbies_set = {"Gaming", "Photography", "Reading", "Soccer", "Music"}
-Entertainment_backlog_set = {"One Piece", "Barry", "Life", "Incantation", "Memento"}
+Hobbies_set = {"Gaming", "Photography", "Gym", "Music"}
+Entertainment_backlog_set = {"One Piece", "Snowfall", "Dr. Stone", "DanDaDan", "Kaiju No. 8"}
 
 course_credits = {
     "COMP 163": 3,
@@ -110,5 +110,6 @@ print(f"Entertainment Backlog: {len(Entertainment_backlog_set)} items")
 print(f"Current Hobbies: {len(Hobbies_set)} activities")
 
 print(f"================================================================")
+
 
 
