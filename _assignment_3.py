@@ -1,4 +1,4 @@
-Full_name = "Jordan Smith"
+Full_name = "Jordan Smith" 
 Student_email = "jsmith@ncat.edu"
 Hometown = "Charlotte, NC"
 Graduation_semester = "Spring 2028"
@@ -108,4 +108,5 @@ print(f"Total Courses Completed: {len(Complete_list)}")
 print(f"Current Academic Load: {sum(Study_hours_per.values()) + sum(course_credits.values())} weekly commitments")
 print(f"Entertainment Backlog: {len(Entertainment_backlog_set)} items")
 print(f"Current Hobbies: {len(Hobbies_set)} activities")
+
 print(f"================================================================")
