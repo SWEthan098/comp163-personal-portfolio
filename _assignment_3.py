@@ -4,11 +4,11 @@ Hometown = "Raleigh, NC"
 Graduation_semester = "Spring 2029"
 Major = "Computer Science"
 
-Current_list = ["COMP 163", "MATH 150", "ENG 101", "HIS 105"]
-Complete_list = ["Biology", "Chemistry", "Calculus", "Spanish II", "World History"]
-Credit_hours = [3, 3, 3, 3]
-GPA_history = [3.2, 3.6, 3.4, 3.7]
-emergency_contact = ("Mom", "Hannah Smith", "704-555-0199")
+Current_list = ["COMP 163", "MATH 131", "ENG 100", "HIS 106", "GEEN 111", "COMP 121"]
+Complete_list = ["Math 130"]
+Credit_hours = [3, 3, 3, 1, 1, 4]
+GPA_history = [3.2, 3.6, 3.4, 3.6]
+emergency_contact = ("Mom", "Jane Doe", "704-555-0199")
 Home_address = ("456 Oak Street", "Charlotte", "NC", "28202")
 
 Instagram_info = ("Instagram", "@jordan_codes", 312)
@@ -110,4 +110,5 @@ print(f"Entertainment Backlog: {len(Entertainment_backlog_set)} items")
 print(f"Current Hobbies: {len(Hobbies_set)} activities")
 
 print(f"================================================================")
+
 
