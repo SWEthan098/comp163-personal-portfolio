@@ -3,14 +3,14 @@ Student_email = "ehall3@aggies.ncat.edu"
 Hometown = "Raleigh, NC"
 Graduation_semester = "Spring 2029"
 Major = "Computer Science"
-
+#Personal information in variables
 Current_list = ["COMP 163", "MATH 131", "ENG 100", "HIS 106", "GEEN 111", "COMP 121"]
 Complete_list = ["Math 130"]
 Credit_hours = [3, 3, 3, 1, 1, 4]
 GPA_history = [3.2, 3.6, 3.4, 3.6]
 emergency_contact = ("Mom", "Jane Doe", "704-555-0199")
 Home_address = ("456 Oak Street", "Charlotte", "NC", "28202")
-
+#Course information and emergency contact information
 Instagram_info = ("Instagram", "@kasbandit", 689)
 Twitter_info = ("Twitter", "@jordandev", 127)
 Birthday_tuple = ("Birthday", "5", "11", "2007")
@@ -19,7 +19,7 @@ Skills_to_learn = {'Data structures', 'Web design', 'JavaScript', 'Git', 'Public
 Career_interests = {"Software development", "Web development", "Data science", "Game development"}
 Hobbies_set = {"Gaming", "Photography", "Gym", "Music"}
 Entertainment_backlog_set = {"One Piece", "Snowfall", "Dr. Stone", "DanDaDan", "Kaiju No. 8"}
-
+#Interest, social information, and Skills/hobbies
 course_credits = {
     "COMP 163": 3,
     "MATH 131": 4,
@@ -66,6 +66,7 @@ Contact_directory = {
     "Roommate": "336-555-7821",
     "Academic Advisor": "336-334-5000"
 }
+#Dictionaries filled with information listed above 
 
 print("================================================================")
 print("              PERSONAL ACADEMIC & LIFE PORTFOLIO")
@@ -75,12 +76,14 @@ print(f"Email: {Student_email}")
 print(f"From: {Hometown} |", end=" ")
 print(f"Graduating: {Graduation_semester}")
 print(f"Major: {Major}")
+#print statements for personal info
 print()
 print("=== ACADEMIC PROFILE ===")
 print(f"Current Semester: {sum(Credit_hours)} credits across {len(Current_list)} courses")
 print(f"Cumulative GPA: {round(sum(GPA_history)/len(GPA_history), 2)}")
 print(f"Weekly Study Time: {sum(Study_hours_per.values())} hours")
 print(f"Academic Investment: ${sum(Study_hours_per.values()) / 5} per study hour")
+#Calculations for the academic profile to produce the stats above 
 print()
 print(f"Current Courses:")
 print(f"{Current_list[0]} - {Credit_hours[0]} credits - {course_professors['COMP 163']} - {course_rooms['COMP 163']}")
@@ -89,6 +92,7 @@ print(f"{Current_list[2]} - {Credit_hours[2]} credits - {course_professors['ENG 
 print(f"{Current_list[3]} - {Credit_hours[3]} credits - {course_professors['HIS 106']} - {course_rooms['HIS 106']}")
 print(f"{Current_list[4]} - {Credit_hours[4]} credits - {course_professors['COMP 121']} - {course_rooms['COMP 121']}")
 print(f"{Current_list[5]} - {Credit_hours[5]} credits - {course_professors['GEEN 111']} - {course_rooms['GEEN 111']}")
+#Prints the number of credits for each class with the class name and room numbers
 
 print()
 print(f"=== PERSONAL DEVELOPMENT ===")
@@ -119,6 +123,7 @@ print(f"Entertainment Backlog: {len(Entertainment_backlog_set)} items")
 print(f"Current Hobbies: {len(Hobbies_set)} activities")
 
 print(f"================================================================")
+
 
 
 
