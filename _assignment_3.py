@@ -22,30 +22,36 @@ Entertainment_backlog_set = {"One Piece", "Snowfall", "Dr. Stone", "DanDaDan", "
 
 course_credits = {
     "COMP 163": 3,
-    "MATH 150": 3,
-    "ENG 101": 3,
-    "HIS 105": 3
+    "MATH 131": 4,
+    "ENG 100": 3,
+    "HIS 106": 3,
+    "GEEN 111": 1,
+    "COMP 121": 1,
 }
 
 course_professors = {
     "COMP 163": "Prof. Rhodes",
-    "MATH 150": "Dr. Lee",
-    "ENG 101": "Dr. Martinez",
-    "HIS 105": "Dr. Brown"
+    "MATH 131": "Dr. Lee",
+    "ENG 100": "Dr. Martinez",
+    "HIS 106": "Dr. Brown",
+    "GEEN 111": "Dr. Parrish",
+    "COMP 121": "Prof. Rhodes"
 }
 
 course_rooms = {
-    "COMP 163": "M-Eric 300",
-    "MATH 150": "Marteena 201",
-    "ENG 101": "Crosby 121",
-    "HIS 105": "Crosby 210",
+    "COMP 163": "Martin 300",
+    "MATH 131": "Marteena 233",
+    "ENG 100": "Crosby 121",
+    "HIS 106": "Crosby 210",
+    "COMP 121": "Graham 206",
+    "GEEN 111": "Mcnair 101"
 }
 
 Monthly_budget = {
-    "Food": 450,
-    "Entertainment": 200,
-    "Books": 125,
-    "Transportation": 100
+    "Food": 40,
+    "Entertainment": 20,
+    "Books": 0,
+    "Transportation": 80
 }
 
 Study_hours_per = {
@@ -78,9 +84,12 @@ print(f"Academic Investment: ${sum(Study_hours_per.values()) / 5} per study hour
 print()
 print(f"Current Courses:")
 print(f"{Current_list[0]} - {Credit_hours[0]} credits - {course_professors['COMP 163']} - {course_rooms['COMP 163']}")
-print(f"{Current_list[1]} - {Credit_hours[1]} credits - {course_professors['MATH 150']} - {course_rooms['MATH 150']}")
-print(f"{Current_list[2]} - {Credit_hours[2]} credits - {course_professors['ENG 101']} - {course_rooms['ENG 101']}")
-print(f"{Current_list[3]} - {Credit_hours[3]} credits - {course_professors['HIS 105']} - {course_rooms['HIS 105']}")
+print(f"{Current_list[1]} - {Credit_hours[1]} credits - {course_professors['MATH 131']} - {course_rooms['MATH 131']}")
+print(f"{Current_list[2]} - {Credit_hours[2]} credits - {course_professors['ENG 100']} - {course_rooms['ENG 100']}")
+print(f"{Current_list[3]} - {Credit_hours[3]} credits - {course_professors['HIS 106']} - {course_rooms['HIS 106']}")
+print(f"{Current_list[4]} - {Credit_hours[4]} credits - {course_professors['COMP 121']} - {course_rooms['COMP 121']}")
+print(f"{Current_list[5]} - {Credit_hours[5]} credits - {course_professors['GEEN 111']} - {course_rooms['GEEN 111']}")
+
 print()
 print(f"=== PERSONAL DEVELOPMENT ===")
 print(f"Current Skills: {Current_skills}")
@@ -110,6 +119,7 @@ print(f"Entertainment Backlog: {len(Entertainment_backlog_set)} items")
 print(f"Current Hobbies: {len(Hobbies_set)} activities")
 
 print(f"================================================================")
+
 
 
 
